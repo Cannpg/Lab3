@@ -25,7 +25,5 @@ class Main {
       }
 
     System.out.println("Blast off!");
-     } 
-    }
-  }
+  } 
 }
