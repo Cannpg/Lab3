@@ -5,10 +5,10 @@ class Main {
     System.out.println("Hello world!");
 
     Scanner myScan = new Scanner(System.in);
-    System.out.println("Please input a whole number.");
+    System.out.println("Enter a number to count down or up from: ");
     int userInput = myScan.nextInt();
     myScan.close();
-    System.out.println("Your number was " + userInput);
+    //System.out.println("Your number was " + userInput);
 
     if(userInput < 0){
       while(userInput<0){
